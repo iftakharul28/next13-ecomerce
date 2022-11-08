@@ -1,8 +1,8 @@
 import React from 'react';
-import Card from '../../../components/Card';
+import Card from '../../../../components/Card';
 async function getSearchItem(slug) {
   let searchItem = await fetch(
-    `https://dummyjson.com/products/category/${slug}`
+    `https://dummyjson.com/products/category/${slug}`,
   );
   return searchItem.json();
 }

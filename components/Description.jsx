@@ -2,8 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 
 const Description = ({ detail }) => {
-  console.log(detail);
-
   return (
     <div className="bg-white">
       <div className="pt-6">

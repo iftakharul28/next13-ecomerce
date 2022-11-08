@@ -1,4 +1,4 @@
-import Description from '../../../components/Description';
+import Description from '../../../../components/Description';
 async function getDetailPostingan(id) {
   let detailPostingan = await fetch(`https://dummyjson.com/products/${id}`);
   return detailPostingan.json();
